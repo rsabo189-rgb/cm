@@ -84,7 +84,7 @@ const ArrowUp = () => (
   </Icon>
 );
 
-export const MyComposition: React.FC = () => {
+export const PromptBox: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps, width, height } = useVideoConfig();
 
